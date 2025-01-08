@@ -97,6 +97,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    plugins: [require.resolve('docusaurus-lunr-search')],
 };
 
 export default config;
